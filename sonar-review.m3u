@@ -1,0 +1,38 @@
+#EXTM3U x-tvg-url="https://sofianem8.github.io/sonar-review/sonar-review.xml"
+# Sonar — App Review demo playlist.
+#
+# Public test streams and Creative Commons films, assembled so a reviewer
+# can exercise the app without an account of their own. This file is not
+# bundled in the app, is not discoverable from the app, and is never
+# offered to users. Regenerate with Tools/MakeReviewKit.swift.
+#
+# NASA public feed. US Government work, public domain.
+#EXTINF:-1 tvg-id="sonar.demo.nasa" group-title="News & Space",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+# Free-to-air channel published openly by Red Bull Media House.
+#EXTINF:-1 tvg-id="sonar.demo.redbull" group-title="Sport",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+# Akamai public HLS test channel.
+#EXTINF:-1 tvg-id="sonar.demo.reference" group-title="Test Patterns",Reference Live 1080p
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+# Apple's own HLS example stream, developer.apple.com/streaming.
+#EXTINF:-1 tvg-id="sonar.demo.bipbop" group-title="Test Patterns",Multi-Language Test Channel
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+# Public fMP4 test channel carrying CC-BY Blender Foundation films.
+#EXTINF:-1 tvg-id="sonar.demo.blender" group-title="Test Patterns",Open Movies Channel
+https://ireplay.tv/test/blender.m3u8
+# Blender Foundation, CC-BY 3.0. Hosted on Unified Streaming's public demo.
+#EXTINF:734 group-title="Films",Tears of Steel
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+# Blender Foundation, CC-BY 3.0.
+#EXTINF:596 group-title="Films",Big Buck Bunny
+https://d2zihajmogu5jn.cloudfront.net/big-buck-bunny/master.m3u8
+# Apple's own HLS example stream, developer.apple.com/streaming.
+#EXTINF:-1 group-title="Films",Reference Film — Dolby Vision & Atmos
+https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8
+# Apple's own HLS example stream, developer.apple.com/streaming.
+#EXTINF:-1 group-title="Films",Reference Film — Advanced HLS
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+# Mux public test stream (CC-BY Blender Foundation content).
+#EXTINF:-1 group-title="Films",Reference Film — Multi-Bitrate
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
